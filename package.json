@@ -1,5 +1,5 @@
 {
-  "name": "dataloader",
+  "name": "dataloader-azion",
   "version": "2.1.0",
   "description": "A data loading utility to reduce requests to a backend via batching and caching.",
   "contributors": [
@@ -27,7 +27,8 @@
     "watch": "babel resources/watch.js | node",
     "testonly": "jest src",
     "prerelease": ". ./resources/prepublish.sh",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "pack:azion": "yarn build && yarn prerelease && npm pack"
   },
   "files": [
     "index.js",
