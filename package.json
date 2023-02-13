@@ -1,5 +1,5 @@
 {
-  "name": "dataloader-azion",
+  "name": "@MagnunAVFAzion/dataloader",
   "version": "2.1.0",
   "description": "A data loading utility to reduce requests to a backend via batching and caching.",
   "contributors": [
@@ -8,13 +8,13 @@
     "Nicholas Schrock <schrockn@fb.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/graphql/dataloader",
+  "homepage": "https://github.com/MagnunAVFAzion/dataloader",
   "bugs": {
-    "url": "https://github.com/graphql/dataloader/issues"
+    "url": "https://github.com/MagnunAVFAzion/dataloader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/graphql/dataloader.git"
+    "url": "https://github.com/MagnunAVFAzion/dataloader.git"
   },
   "main": "index.js",
   "typings": "index.d.ts",
